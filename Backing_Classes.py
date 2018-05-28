@@ -29,6 +29,14 @@ class Decorations(Fact):
 	pass
 
 
+class Tableware(Fact):
+	pass
+
+
+class Checklist(Fact):
+	pass
+
+
 class GuestsNumber(Fact):
 	pass
 
@@ -45,6 +53,10 @@ class Budget(Fact):
 	pass
 
 
+class BudgetClass(Fact):
+	pass
+
+
 class HouseParty(Fact):
 	pass
 
@@ -54,6 +66,10 @@ class Venue(Fact):
 
 
 class Ages(Fact):
+	pass
+
+
+class Done(Fact):
 	pass
 
 
@@ -71,4 +87,3 @@ class List:
 
 	def get_list(self):
 		return self.lst
-
